@@ -8,8 +8,7 @@ const guess = document.querySelector('#guess-input'),
     guessBtn = document.querySelector('#guess-btn'),
     message = document.querySelector('.message');
 
-// let answer = Math.floor((Math.random() * (max - 1)) + min);
-let answer = 4;
+let answer = Math.floor((Math.random() * (max - 1)) + min);
 
 minNum.textContent = min;
 maxNum.textContent = max;
